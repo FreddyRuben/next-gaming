@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+}
+
+body{
+  background-color: #0f0101;
+}
+
+header{
+  margin: 0 20% 0 20%;
+}
+
+.head-up{
+  display: flex;
+}
+
+.clan-name{
+  padding-top: 20px;
+  color: #ffffff;
+  flex: 1;
+}
+
+#title{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#sub-title{
+  margin-left: 120px;
+}
+
+#search-bar{
+  margin-top: 30px;
+  height: 27px;
+  border-radius: 5px;
+}
+
+#nav-bar{
+  /* background-color: red; */
+
+}
+
+#elements-nav-bar{
+  list-style: none;
+  display: flex;
+  width: 340px;
+  margin: auto;
+}
+
+#elements-nav-bar li{
+/* border: 1px solid #00f0ff; */
+border-radius: 10px;
+margin-right: 10px;
+}
+
+#elements-nav-bar li a{
+  text-decoration: none;
+  color: white;
+  padding: 0 5px 0 5px;
+}
