@@ -8,6 +8,7 @@ body{
 
 header{
   margin: 0 20% 0 20%;
+  /* border: 1px solid yellow; */
 }
 
 .head-up{
@@ -32,29 +33,53 @@ header{
 #search-bar{
   margin-top: 30px;
   height: 27px;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#search-button{
+  margin-top: 30px;
+  height: 27px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 30px;
+  background-color: #b1b1b1;
+  border: 1px solid #b1b1b1;
 }
 
 #nav-bar{
-  /* background-color: red; */
-
 }
 
 #elements-nav-bar{
   list-style: none;
   display: flex;
-  width: 340px;
+  width: 460px;
   margin: auto;
 }
 
-#elements-nav-bar li{
-/* border: 1px solid #00f0ff; */
-border-radius: 10px;
-margin-right: 10px;
+#elements-nav-bar .element{
+margin-right: 15px;
+font-family: arial;
+font-size: 14px;
 }
 
-#elements-nav-bar li a{
+#elements-nav-bar .element a{
+  border-top: 2px solid #ffffff;
   text-decoration: none;
   color: white;
-  padding: 0 5px 0 5px;
+  padding: 0 10px 0 10px;
+  padding-top: 2px;
+}
+
+#elements-nav-bar .element a:hover{
+  border-top: 2px solid #8fd055;
+  color: #8fd055;
+}
+
+
+/* body */
+
+#image-center{
+  margin: 0 20% 0 20%;
+  margin-top: 50px;
 }
